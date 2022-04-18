@@ -1,0 +1,23 @@
+課題1. 
+[p214071@java22 Java]$ cc koza_all.c -o koza_all
+[p214071@java22 Java]$ ./koza_all 
+利息は50.000000
+
+課題2. 
+struct　使わないで、class を使いました。
+全ての c の関数は一つの class になりました。
+malloc　使わないで、New を使いました。
+c のvoid Koza_syokika 関数は class の constructor として使いました。
+
+課題3.
+[p214071@java22 Java]$ javac Koza.java KozaApp.java
+[p214071@java22 Java]$ java KozaApp
+利息は50.0
+
+改造:
+riritsu = 0.004
+my_koza.gankin = 350000
+my_koza.risoku(6)
+
+[p214071@java22 Java]$ java KozaApp
+利息は700.0
