@@ -8,4 +8,5 @@ class KozaApp {
 
         System.exit(0);
     }
+    //halah memek
 }
